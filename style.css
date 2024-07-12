@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(12, 7, 7);
+}
+header {
+    width: 70%;
+    padding: 20px 20px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 2vw;
+}
+header input, button {
+    background-color: aliceblue;
+}
+header button {
+    border-radius: 20%;
+    width: 10vw;
+    height: 3vw;
+    margin: auto;
+}
+header input {
+    height: 3vw;
+    width: 50%;
+    margin: auto;
+}
+#main-body {
+    padding: 20px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(12, 7, 7);
+    color: aliceblue;
+    margin: auto;
+}
+/* #main-body  img {
+    width: 100%;
+} */
+.child {
+    flex: 1 0 21%;
+    margin: 5px;
+    margin-bottom: 50px;
+    height: 100px;
+}
+.child img {
+    width: 60%;
+    height: 100%;
+    object-fit: cover;
+}
+footer{
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    color: aliceblue;
+}
+footer button, img {
+    background-color: aliceblue;
+    cursor: pointer;
+}
+
+footer img {
+    width: 4rem;
+    height: 3rem;
+}
+.page {
+    width: 12vw;
+    text-align: center;
+    color: aliceblue;
+}
+strong {
+    color: rgb(106, 106, 236);
+}
+#genre-select {
+    width: 30%;
+    margin: 10px;
+    height: 3vw;
+    background-color: white;
+    }
+#genre-select:hover {
+     background: rgb(171, 169, 169);
+    }
+#newBody-header {
+    display: flex;
+}
+.childs h1 {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+#newBody-header {
+    display: flex;
+}
+.new-button {
+    margin: auto;
+    height: 4rem;
+    display: flex;
+    width: 50%;
+    justify-content: space-evenly;
+    background-color: rgba(0, 0, 0, 0.5);
+    gap: 4rem;
+}
+.my-games-btn {
+    background-color: rgb(44, 42, 42);
+    color: white;
+    width: 5rem;
+}
+.childs {
+    background-color: rgba(0, 0, 0, 0.5); 
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    text-align: center;
+    margin: 5px;
+    margin-bottom: 50px;
+    height: 100px;
+    gap: 3rem;
+    height: 40rem;
+}
+.video-container {
+    position: relative;
+    overflow: hidden;
+    width: 100%; /* Ширина контейнера видео */
+    padding-top: 56.25%; /* Пропорция 16:9 */
+    }
+    
+    /* Стили для элемента <video> */
+    video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    }
+    
+    /* Дополнительные стили для улучшения внешнего вида */
+    video {
+    max-width: 100%; /* Максимальная ширина видео */
+    height: auto; /* Автоматическая высота для поддержания пропорций */
+    border: none; /* Убрать рамку, если она есть */
+    outline: none; /* Убрать контур при фокусировке */
+    }
